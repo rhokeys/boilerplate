@@ -3,9 +3,8 @@ import Head from 'next/head'
 type Props = {
   title: string
 }
-const foo = 'dasdsadsa'
 
-export default function Home        ({ title = 'React Avançado' }: Props) {
+export default function Home({ title = 'React Avançado' }: Props) {
   return (
     <>
       <Head>
